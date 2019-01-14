@@ -1,0 +1,13 @@
+Algoritmo mayor_de_edad
+	escribir "Dijite edad:";
+	Leer edad;
+	Si edad <=10 Entonces
+		Escribir "Niño";
+	SiNo
+		Si edad <=19 Entonces
+			Escribir "adolescente";
+		SiNo
+			Escribir "adulto";
+		Fin Si
+	Fin Si
+FinAlgoritmo
